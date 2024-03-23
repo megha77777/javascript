@@ -7,5 +7,14 @@
     <link rel="stylesheet" href="style.css" />
     <script src="script.js"></script>
   </head>
-  <body> </body>
+  <body>
+    <h1 class="heading">Counter using HTML</h1>
+    <div id="count-container">
+      <p id="para-count">Your current count is <span id="count">0</span></p>
+      <p id="para-error" class="error">Error: Cannot go below 0</p>
+    </div>
+    <button class="btn decrement" onclick="decrement()">Decrement</button>
+    <button class="btn increment" onclick="increment()">Increment</button>
+    <button class="btn clear" onclick="clearCount()">Clear</button>
+  </body>
 </html>
